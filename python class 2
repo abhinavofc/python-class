@@ -1,0 +1,133 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOi1aBekBN+zy67IIiSuwhc",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/abhinavofc/python-class/blob/main/python%20class%202\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 26,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "lAQlgZAzbmhm",
+        "outputId": "6e69bc7b-e5c4-498c-9f4b-69f2eca111b0"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "sum of 5 and 10 is :  15\n",
+            "age = 25\n"
+          ]
+        }
+      ],
+      "source": [
+        "a=5\n",
+        "b=10\n",
+        "print(f\"sum of {a} and {b} is : \",a+b)\n",
+        "age = 25\n",
+        "print(f\"age = {age}\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "pizza = 199\n",
+        "burgur= 180\n",
+        "coke= 129\n",
+        "momos=189\n",
+        "spring_roll= 299\n",
+        "discount_per = 10\n",
+        "total_bill = (pizza+burgur++coke+momos+spring_roll)\n",
+        "total_discount = total_bill*10/100\n",
+        "payable_bill =total_bill-total_discount\n",
+        "\n",
+        "print(\"total bill:= \", payable_bill)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "c1fVJGBkg7hx",
+        "outputId": "9b49e4f0-54e5-4e4d-94cd-b50c71bcb601"
+      },
+      "execution_count": 27,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "total bill:=  896.4\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Name= \"abhinav\"\n",
+        "age=18\n",
+        "Date_of_birth= 2007\n",
+        "city= \"chandigarh\"\n",
+        "print(f\"Name of the person={Name}\")\n",
+        "print(f\" Age of the person={age}\")\n",
+        "print(f\"Date of birth of the person={Date_of_birth}\")\n",
+        "print(f\"Belong from={city}\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "9ug7GtlxdwgB",
+        "outputId": "9e3e6296-89a6-407f-a5fc-624de430ec12"
+      },
+      "execution_count": 32,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Name of the person=abhinav\n",
+            " Age of the person=18\n",
+            "Date of birth of the person=2007\n",
+            "Belong from=chandigarh\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "MUyP8-tSi5Yy"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
